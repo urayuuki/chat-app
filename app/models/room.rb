@@ -1,4 +1,4 @@
 class Room < ApplicationRecord
-  has_many :rooom_users
-  has_many :users, through: :rooom_users
+  has_many :room_users
+  has_many :users, through: :room_users
 end
